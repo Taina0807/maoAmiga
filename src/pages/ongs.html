@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="/src/style/ongs.css">
     <title>ONGs - Mão Amiga</title>
 </head>
+
 <body>
     <header>
         <nav>
@@ -38,29 +39,31 @@
             </ul>
         </nav>
 
-        <div>
-            <h1>Explore as ONGs</h1>
+        <div class="cabecalho">
+            <h1>Explore as <span id="ONGs">ONGs</span></h1>
             <p>Encontre organizações que precisam da sua ajuda e descubra como você pode fazer a diferença</p>
         </div>
+
+        <section class="filtro">
+            <div>
+                <div class="topoFiltro">
+                    <div class="campoBusca">
+                        <img src="/src/images/icons/iconePesquisa.png" alt="Pesquisar">
+                        <input type="text" placeholder="Buscar por nome ou tipo de doação...">
+                    </div>
+        
+                    <div class="verMais">
+                        Todas as causas
+                        <img src="/src/images/icons/iconeExpandir.png" alt="Expandir">
+                    </div>
+                </div>
+        
+                <p>0 ONGs encontradas</p>
+            </div>
+        </section>
+        
     </header>
 
-    <section class="filtro">
-        <div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                    <p>Buscar por nome ou tipo de doação...</p>
-                </div>
-
-                <div>
-                    Todas as causas
-                    <img src="" alt="">
-                </div>
-            </div>
-
-            <p>6 ONGs encontradas</p>
-        </div>
-    </section>
     <main>
         <section>
             <div class="ongsContainer">
@@ -77,19 +80,19 @@
                         <p>voluntários</p>
                     </div>
 
-                    <div>
+                    <div class="enderecos">
                         <ul>
-                            <li><img src="" alt=""> email@exemplo.com</li>
-                            <li><img src="" alt="">Endereço - UF</li>
+                            <li><img src="/src/images/icons/iconeEmail.png" alt="Email"> email@exemplo.com</li>
+                            <li><img src="/src/images/icons/iconeLocal.png" alt="Endereço">Endereço - UF</li>
                         </ul>
                     </div>
 
-                    <button>Ver Detalhes <img src="" alt=""></button>
+                    <button>Ver Detalhes</button>
                 </div>
 
                 <!-- ONG 2 -->
                 <div class="ong">
-                    <h2>ONG 1</h2>
+                    <h2>ONG 2</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quis amet voluptate dolorum
                         laudantium commodi voluptas facilis eius. Veniam similique repellat id dolor incidunt quas
                         eaque, molestiae nostrum ipsa reprehenderit?</p>
@@ -100,19 +103,19 @@
                         <p>voluntários</p>
                     </div>
 
-                    <div>
+                    <div class="enderecos">
                         <ul>
-                            <li><img src="" alt=""> email@exemplo.com</li>
-                            <li><img src="" alt="">Endereço - UF</li>
+                            <li><img src="/src/images/icons/iconeEmail.png" alt="Email"> email@exemplo.com</li>
+                            <li><img src="/src/images/icons/iconeLocal.png" alt="Endereço">Endereço - UF</li>
                         </ul>
                     </div>
 
-                    <button>Ver Detalhes <img src="" alt=""></button>
+                    <button>Ver Detalhes</button>
                 </div>
 
                 <!-- ONG 3 -->
                 <div class="ong">
-                    <h2>ONG 1</h2>
+                    <h2>ONG 3</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quis amet voluptate dolorum
                         laudantium commodi voluptas facilis eius. Veniam similique repellat id dolor incidunt quas
                         eaque, molestiae nostrum ipsa reprehenderit?</p>
@@ -123,14 +126,14 @@
                         <p>voluntários</p>
                     </div>
 
-                    <div>
+                    <div class="enderecos">
                         <ul>
-                            <li><img src="" alt=""> email@exemplo.com</li>
-                            <li><img src="" alt="">Endereço - UF</li>
+                            <li><img src="/src/images/icons/iconeEmail.png" alt="Email"> email@exemplo.com</li>
+                            <li><img src="/src/images/icons/iconeLocal.png" alt="Endereço">Endereço - UF</li>
                         </ul>
                     </div>
 
-                    <button>Ver Detalhes <img src="" alt=""></button>
+                    <button>Ver Detalhes</button>
                 </div>
             </div>
         </section>

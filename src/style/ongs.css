@@ -108,6 +108,187 @@ header a:hover {
     color: #333;
 }
 
+#ONGs {
+    color: #2E7D32;
+}
+
+h1 {
+    margin: 1%;
+}
+
+.cabecalho {
+    margin: 4%;
+}
+
+/* FILTRO */
+.filtro {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    background: #f7f7f7; 
+}
+
+.filtro > div {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.topoFiltro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.campoBusca {
+    display: flex;
+    align-items: center;
+    margin-right: 1%;
+    gap: 10px;
+    padding: 12px 16px;
+    border: 1px solid #cfcfcf;
+    border-radius: 12px;
+    background: #fff;
+    flex: 1;
+}
+
+.campoBusca img {
+    width: 20px;
+    height: 20px;
+}
+
+.campoBusca input {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.campoBusca input::placeholder {
+    color: #777;
+}
+
+.verMais {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px;
+    border: 1px solid #cfcfcf;
+    border-radius: 12px;
+    background: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s ease;
+    white-space: nowrap;
+}
+
+.verMais:hover {
+    background: #eee;
+}
+
+.verMais img {
+    width: 18px;
+}
+
+.filtro > div > p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* MAIN */
+.ongsContainer {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 3%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.ong {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.10);
+}
+
+.necessidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.necessidades p {
+    background: #2E7D32;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+}
+
+.enderecos ul {
+    list-style: none;
+}
+
+.enderecos li {
+    display: flex;
+    align-items: center;
+    margin: 2%;
+    gap: 5%;
+}
+
+.enderecos img {
+    width: 25px;
+}
+
+.ong button {
+    width: 90%;
+    margin: auto auto 0 auto;
+    padding: 10px 16px;
+    border: none;
+    background: #2E7D32;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center; 
+    gap: 8px;
+
+}
+
+.ong button:hover {
+    background: #d4d4d4;
+    color: #333;
+}
+
+/* Responsivo: 2 por linha no tablet */
+@media (max-width: 900px) {
+    .ongsContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Responsivo: 1 por linha no celular */
+@media (max-width: 600px) {
+    .ongsContainer {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* FOOTER */
 footer {
     font-size: 14px;
