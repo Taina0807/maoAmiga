@@ -267,6 +267,10 @@ h1 {
     font-size: 0.85rem;
 }
 
+.ong a {
+    text-decoration: none;
+}
+
 .enderecos ul {
     list-style: none;
 }
