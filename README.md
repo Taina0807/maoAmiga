@@ -50,6 +50,7 @@ E onde pessoas comuns encontram rapidamente onde podem fazer impacto - seja com 
 ## 🗂️ Estrutura do Projeto
 A organização foi feita para manter tudo modular e claro:
 
+```
 src/
 │
 ├── images/
@@ -79,6 +80,7 @@ src/
 
 index.html
 README.md
+```
 
 ## 🎯 Objetivo Acadêmico
 O projeto foi desenvolvido como parte de um trabalho da academico, com o objetivo de:
